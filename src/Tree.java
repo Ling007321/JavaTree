@@ -33,7 +33,7 @@ while(true){
         StringBuffer sb=new StringBuffer();
         visita(root,sb);
 
-        return sb;
+        return sb.toString;
     }
 
     public void visita(Node<T> n ,StringBuffer s){
